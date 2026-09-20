@@ -93,8 +93,6 @@ body{
   pointer-events:none;
 }
 
-
-/* hiệu ứng */
 .fx,.fall-layer,.confetti-layer{
   position:absolute;
   inset:0;
@@ -236,8 +234,6 @@ body{
   50%{filter:drop-shadow(0 0 7px rgba(255,255,255,.85))}
 }
 
-
-/* ===== CHỈ HIỆU ỨNG NẢY CHO TÊN NGUYỄN THỊ NGỌC ANH ===== */
 .name-bounce-overlay{
   position:absolute;
   left:3.8%;
@@ -326,7 +322,6 @@ body{
   pointer-events:none;
 }
 
-/* phong bì */
 .intro{
   position:fixed;
   inset:0;
@@ -476,16 +471,9 @@ const wishTextDisplay=document.getElementById("wishTextDisplay");
 const nameBounceOverlay=document.getElementById("nameBounceOverlay");
 const birthdayDateDisplay=document.getElementById("birthdayDateDisplay");
 
-/* =========================================================
-   ✏️ CHỈNH THÔNG TIN THIỆP Ở ĐÂY
-   Chỉ cần sửa nội dung nằm trong dấu "..."
-   ========================================================= */
-
-const CARD_NAME = "NGUYỄN NGỌC ANH"; 
-const BIRTHDAY_DATE = "17/05/2006";  
-const WISH_TEXT = "Chúc bạn tuổi mới hay ăn chóng lớn thật nhiều niềm vui,\nluôn xinh đẹp, hạnh phúc và gặp nhiều may mắn! 💗";
-
-/* ========================================================= */
+const CARD_NAME = "Nguyễn Ngọc Anh"; 
+const BIRTHDAY_DATE = "01-09-2006";  
+const WISH_TEXT = "Chúc bạn tuổi mới hay ăn chóng lớn thật nhiều niềm vui và luôn luôn hạnh phúc bên gia đình nha,\nluôn xinh đẹp, hạnh phúc và gặp nhiều may mắn! 💗";
 
 wishTextDisplay.textContent = WISH_TEXT;
 birthdayDateDisplay.textContent = BIRTHDAY_DATE;
