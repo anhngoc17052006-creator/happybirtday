@@ -1,0 +1,5 @@
+@echo off
+REM Sao chep file nay thanh fb_web_config.bat va sua 2 gia tri ben duoi.
+REM Dung mat khau rieng, dai va khong trung mat khau Facebook.
+set "FB_WEB_USER=admin"
+set "FB_WEB_PASSWORD=THAY_BANG_MAT_KHAU_RIENG_DAI_IT_NHAT_20_KY_TU"

@@ -1,0 +1,30 @@
+# Local credentials
+fb_web_config.bat
+.env
+.env.*
+!.env.example
+
+# Python environment/cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local database and runtime data
+*.db
+*.sqlite
+*.sqlite3
+instance/
+data/
+uploads/
+FB_Auto_Post_V4/
+
+# Browser profiles / automation state
+playwright/.*
+browser_data/
+user_data/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
